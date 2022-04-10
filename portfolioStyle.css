@@ -1,0 +1,255 @@
+
+body{
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+#title{
+    color:white;
+    text-align: left;
+     background-color: #39375B;
+}
+
+h1{
+font-size:2.6rem;
+    line-height:1.2;
+}
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight:550;
+}
+.container-fluid{
+    padding:3% 15% 15%;
+}
+
+/*Nav Bar*/
+.navbar{
+    padding-bottom: 4.5rem;
+ 
+   
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    font-weight: bold;
+  
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.1rem;
+    
+}
+
+
+
+
+/*Title Image*/
+.title-image{
+ margin-left:7%;
+    width:18%;
+    border-radius: 100%;
+    position: absolute;
+   
+}
+.title-head{
+    text-align: center;
+    position:relative;
+    top:70px;
+}
+.title-button{
+    font-weight: 400;
+    margin:4% 0 1% 18%;
+}
+
+
+ /*Skills*/
+ #skills{
+     padding:7% 11.5%;
+     background-color: white;
+     position: relative;
+     z-index: 1;
+     
+ }
+ #skills i{
+    font-size: 3.2rem;
+ }
+ .skill-box{
+    padding:4%;
+    
+ 
+ }
+ .skill-box p{
+     color:gray;
+ }
+ .icon{
+    color:#745C97;
+    
+    margin-bottom: 30px;
+ }
+ .icon:hover{
+     color:#39375B;
+
+ }
+
+
+ /*links*/
+
+ #links{
+    color:white;
+    background-color:#39375B;
+
+ }
+.carousel-item a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: small;
+}
+.carousel-item a:hover{
+    text-decoration: underline;
+    color:aliceblue;
+    font-weight: 600;
+}
+#links img{
+    border: 2px solid white;
+    border-radius: 100%;
+}
+#links img:hover{
+    border:4px solid white;
+}
+ .carousel-item{
+    padding:7% 11.5%;
+  
+    
+ }
+ #links button{
+     width:10%;
+     
+ }
+
+ 
+/*ContactMe*/
+.form-items input
+{
+    margin: 0 5px;
+    width: 200px;   
+    border-radius: 3px;
+    border: 1.1px solid black;
+}
+#contactMe{
+    padding:8% 11.5% ;
+}
+
+#contactMe span{
+    color:red;
+}
+
+.form-items{
+    padding:13px;
+    margin:7px 0px;
+}
+.form-button{
+    padding:8px;
+    width:170px;
+    
+    color:white;
+    background: #39375B;
+    margin-top:10px;
+ 
+   font-weight:bold;
+  
+  
+   border-radius: 5px;
+   border:0;
+  
+   font-size: large;
+}
+.form-button:hover{
+color: #39375B ;
+background-color: white;
+ transition: 0.5s;
+
+}
+.button-container{
+    width:100%;  
+    margin:10px;
+    margin-bottom: 30px;
+}
+#contactMe h4{
+    font-size:25px;
+    font-weight: 300;
+}
+#contactMe h1{
+    font-weight: bolder;
+}
+
+.contact-head{
+    font-weight:500;
+    text-decoration: underline 1.6px ;
+    margin-top: 20px;;
+}
+
+
+/*AboutMe*/
+
+#about{
+background-color: #39375B;
+padding:7% 15%;
+color:white;
+margin-bottom:5%;
+
+}
+
+#about h3{
+   
+    line-height: 1.5;
+    font-weight: lighter;
+    font-size:1.1rem;
+}
+#about h1{
+    font-weight: bold;
+    padding:10px;
+    margin-bottom: 20px;
+    
+}
+
+.resume-button{
+    margin:5% 3% 5% 0; 
+    
+}
+
+/*footer*/
+
+#footer{
+    
+    color:gray;
+    padding:7% 2% 3% 2%;
+}
+#footer a
+{
+    color:gray;
+    padding:8px;
+}
+
+
+@media (max-width:1028px)
+{
+    .title-image
+    {
+        position:static;
+        top:100px;
+        padding: 2%;
+        width:50%;
+    }
+   #title
+   {
+       text-align: center;
+   }
+   
+   
+}
